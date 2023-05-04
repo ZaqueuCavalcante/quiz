@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "./Quiz.scss";
+import TimeBar from "../TimeBar/TimeBar";
 
 function Quiz({ questions }) {
   const [currentQuestionId, setCurrentQuestionId] = useState(1);
@@ -56,6 +58,7 @@ function Quiz({ questions }) {
         </div>
       ) : (
         <>
+          <TimeBar></TimeBar>
           <>
             <span className="active-question-id">{currentQuestionId + 1}</span>
             <span className="total-questions">/{questions.length}</span>

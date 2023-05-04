@@ -1,7 +1,9 @@
 # Quiz App
 
+https://mangue-bit-quiz.netlify.app
+
 - Components
-- Hooks (state, effect, ref)
+- Hooks (useState, useEffect, useRef)
 - Intervals
 - Events
 - Conditional Rendering
