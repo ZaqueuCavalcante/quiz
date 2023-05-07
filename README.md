@@ -7,3 +7,5 @@ https://mangue-bit-quiz.netlify.app
 - Intervals
 - Events
 - Conditional Rendering
+
+Based on https://www.youtube.com/watch?v=UX5HIrxbRUc

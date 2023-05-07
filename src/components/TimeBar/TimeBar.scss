@@ -5,10 +5,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  border-bottom: 2px solid $disabled;
+  border-bottom: 1px solid $disabled;
 
   .progress {
     height: 5px;
+    border-radius: 8px;
     transition-duration: 1s;
     width: 0;
     transition-timing-function: linear;
