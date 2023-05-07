@@ -30,6 +30,7 @@ function Quiz({ questions }) {
     if (currentQuestionId === questions.length - 1) {
       setShowResult(true);
       setCurrentQuestionId(0);
+      setInputValue("");
     }
 
     setCurrentQuestionId((value) => value + 1);
@@ -56,6 +57,7 @@ function Quiz({ questions }) {
     if (currentQuestionId === questions.length - 1) {
       setShowResult(true);
       setCurrentQuestionId(0);
+      setInputValue("");
     }
 
     setCurrentQuestionId((value) => value + 1);
